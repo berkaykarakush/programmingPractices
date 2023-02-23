@@ -8,7 +8,7 @@ namespace cisminCarpmaHizi
         {
             //yerden yuksekligi ve ilk hizi girilen cismin havada kalmas suresi, yatayda alacagi yol ve yere carpma hizi hesaplama 
             Console.Write("Cismin yerden yuksekligini giriniz: "); //bilgi metni
-            double h = double.Parse(Console.ReadLine()); //girilen degeri float'a cast et ve ata
+            double h = double.Parse(Console.ReadLine()); //girilen degeri double'a cast et ve ata
 
             Console.Write("Cismin hizini giriniz: ");
             double vo = double.Parse(Console.ReadLine());
