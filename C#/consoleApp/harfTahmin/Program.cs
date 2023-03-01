@@ -34,7 +34,7 @@ namespace harfTahmin
                 }
             }
 
-            if (hak == 0)
+            if (hak == 0) 
                 Console.WriteLine($"Maalesef bilemediniz. Rastgele buyuk harf {harf}'dir.");
         }
     }
